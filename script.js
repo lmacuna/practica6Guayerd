@@ -113,7 +113,7 @@ for (let i = 0; i < artistas.length; i++) {
 */
 console.log("\n\n\n");
 console.log("menos el ultimo:");
-console.log("se elimino: " + artistas.pop());
+//console.log("se elimino: " + artistas.pop());
 console.log("\n");
 /*
 for (let i = 0; i < artistas.length; i++) {
@@ -178,8 +178,9 @@ Mostrar la mitad de elementos del array.(Pensar esto como si no supieramos la ca
 */
 
 //longitud
-/*
+
 let numeros = [8, 3, 20, 15, 7, 38, 22, 11];
+/*
 console.log(numeros.length);
 */
 console.log("\n");
@@ -216,7 +217,8 @@ for (let i = 0; i < numeros.length; i++) {
 console.log(mayor);
 */
 //mostrar mitad de posiciones 
-
+console.log("Mostrando la mitad del array:");
+console.log("\n");
 let longitud = numeros.length;
 for (let i = 0; i < numeros.length; i++) {
     numeros = numeros.slice(0, longitud / 2);
